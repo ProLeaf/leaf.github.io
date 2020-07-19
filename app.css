@@ -1,0 +1,40 @@
+.onepage {
+	height: 750px;
+}
+
+.onepage-bg {
+	height: 800px;
+	width: 100%;
+	position: absolute;
+	background-position: center center;
+	background-size: cover;
+	background-image: url(berlinwall.jpg);
+}
+
+#onpagebg {
+}
+
+.headh1content {
+	margin-top: 160px;
+	line-height: 75px;
+}
+
+.title-text {
+	margin-left: 50px;
+}
+
+.headfontsize h1 {
+	font-size: 50px;
+	color: #ffffff;
+}
+
+#brief {
+	color: #ffffff;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.headfontsize p a {
+	margin-top: 100px;
+	margin-right: 0px;
+}
