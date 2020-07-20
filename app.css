@@ -1,17 +1,15 @@
+
 .onepage {
 	height: 750px;
 }
 
 .onepage-bg {
-	height: 800px;
 	width: 100%;
 	position: absolute;
 	background-position: center center;
 	background-size: cover;
-	background-image: url(berlinwall.jpg);
-}
-
-#onpagebg {
+	background-image: url("berlinwall.jpg");
+	height: 750px;
 }
 
 .headh1content {
@@ -58,15 +56,18 @@
 	/*padding: 20px 0 0 0;*/
 }
 
-/*.twopage-text-h1 img {
+/*
+.twopage-text-h1 img {
 	width: 100%;
 	margin-top: -20px;
-}*/
+}
+*/
 
-/*.jumbotron {
+/*
+.jumbotron {
 	margin-left: -2px;
-}*/
-
+}
+*/
 .twopage .row {
 	margin-top: 50px;
 	margin-right: 0px;
@@ -107,7 +108,7 @@
 
 .twopagebtn {
 	width: 100%;
-	margin: 50px auto;
+	margin: 70px auto;
 	text-align: center;
 }
 
@@ -120,4 +121,52 @@
 	border-radius: 55px;
 	padding: 0px 45px;
 	background-color: #999;
+}
+
+.threepage {
+	height: 726px;
+	background-image: url(https://images.unsplash.com/photo-1575761344173-aa186491c120?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.coursexingging-text {
+	color: #fff;
+	margin-top: 100px;
+	width: 100%;
+	text-align: center;
+}
+
+
+.carousel-inner {
+	padding-left: 300px;
+}
+
+
+.carousel-control {
+	width: 0%;
+}
+
+
+.threepage .container .carousel {
+	margin-top: 110px;
+}
+
+
+
+.jumbotron {
+	margin-bottom: -2px;
+}
+
+.bs-docs-footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #99979c;
+	text-align: center;
+	background-color: #2a2730;
+}
+
+.bs-docs-footer-links li {
+	margin: 15px;
+	list-style: none;
 }
