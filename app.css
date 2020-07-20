@@ -42,7 +42,6 @@
 .twopage {
 	padding: 2px 0 2px 0;
 	height: auto;
-	/*background-image: url("");*/
 	position: relative;
 }
 
@@ -69,21 +68,21 @@
 }*/
 
 .twopage .row {
-	margin-top: 10px;
+	margin-top: 50px;
 	margin-right: 0px;
 	margin-left: 0px;
 }
 
 .twopage-courses {
-	float: left;
+	/*float: left;*/
 	background: #fff;
-	padding: 0 2px 2px 0;
+	padding: 0;
 	position: relative;
-	overflow: hidden;
+	overflow: hidden;;
 }
 
 .twopage-courses img {
-	width: 100%;
+	/*width: 100%;*/
 }
 
 .classicon {
@@ -104,4 +103,21 @@
 	background-color: black;
 	opacity: 0.6;
 	transition: opacity 0.5s;
+}
+
+.twopagebtn {
+	width: 100%;
+	margin: 50px auto;
+	text-align: center;
+}
+
+.twopagebtn .btn-lg {
+	font-size: 25px;
+}
+
+
+.badge {
+	border-radius: 55px;
+	padding: 0px 45px;
+	background-color: #999;
 }
